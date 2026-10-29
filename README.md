@@ -1,5 +1,12 @@
 # Sesión 11: Abstracción de Mensajería y Estandarización con Dapr
 
+## Entrega del laboratorio
+
+- **Estudiante:** Diego Latorre
+- **Repositorio de entrega:** [https://github.com/Di3g01314/2026-20_ARTI-4219_S11_DAPR](https://github.com/Di3g01314/2026-20_ARTI-4219_S11_DAPR)
+
+---
+
 En esta sesión aplicamos el **patrón sidecar** de Dapr para construir un sistema de mensajería **agnóstico al broker**, demostrando cómo la infraestructura de red y el estándar **CloudEvents 1.0** se delegan al runtime, liberando al desarrollador del SDK propietario.
 
 Construiremos una PoC completa de Pub/Sub sobre Kubernetes (Kind):
